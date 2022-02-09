@@ -13,6 +13,10 @@
 		4BCA568127B2B645005EF24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA567F27B2B645005EF24E /* Main.storyboard */; };
 		4BCA568327B2B646005EF24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA568227B2B646005EF24E /* Assets.xcassets */; };
 		4BCA568627B2B646005EF24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA568427B2B646005EF24E /* LaunchScreen.storyboard */; };
+		4BCA568E27B2B6B3005EF24E /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA568D27B2B6B3005EF24E /* CategoriesTableViewController.swift */; };
+		4BCA569227B2B73E005EF24E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA569027B2B73E005EF24E /* CategoryTableViewCell.swift */; };
+		4BCA569327B2B73E005EF24E /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA569127B2B73E005EF24E /* CategoryTableViewCell.xib */; };
+		4BCA569527B2BA5E005EF24E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA569427B2BA5E005EF24E /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4BCA568227B2B646005EF24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BCA568527B2B646005EF24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BCA568727B2B646005EF24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCA568D27B2B6B3005EF24E /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		4BCA569027B2B73E005EF24E /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		4BCA569127B2B73E005EF24E /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		4BCA569427B2BA5E005EF24E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		4BCA567827B2B645005EF24E /* FeedFilter */ = {
 			isa = PBXGroup;
 			children = (
+				4BCA568F27B2B71C005EF24E /* CategoryTableViewCell */,
 				4BCA567927B2B645005EF24E /* AppDelegate.swift */,
 				4BCA567B27B2B645005EF24E /* SceneDelegate.swift */,
 				4BCA567D27B2B645005EF24E /* ViewController.swift */,
+				4BCA568D27B2B6B3005EF24E /* CategoriesTableViewController.swift */,
 				4BCA567F27B2B645005EF24E /* Main.storyboard */,
 				4BCA568227B2B646005EF24E /* Assets.xcassets */,
 				4BCA568427B2B646005EF24E /* LaunchScreen.storyboard */,
 				4BCA568727B2B646005EF24E /* Info.plist */,
 			);
 			path = FeedFilter;
+			sourceTree = "<group>";
+		};
+		4BCA568F27B2B71C005EF24E /* CategoryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA569027B2B73E005EF24E /* CategoryTableViewCell.swift */,
+				4BCA569127B2B73E005EF24E /* CategoryTableViewCell.xib */,
+				4BCA569427B2BA5E005EF24E /* CheckBox.swift */,
+			);
+			path = CategoryTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,7 @@
 				4BCA568627B2B646005EF24E /* LaunchScreen.storyboard in Resources */,
 				4BCA568327B2B646005EF24E /* Assets.xcassets in Resources */,
 				4BCA568127B2B645005EF24E /* Main.storyboard in Resources */,
+				4BCA569327B2B73E005EF24E /* CategoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCA569227B2B73E005EF24E /* CategoryTableViewCell.swift in Sources */,
 				4BCA567E27B2B645005EF24E /* ViewController.swift in Sources */,
+				4BCA569527B2BA5E005EF24E /* CheckBox.swift in Sources */,
 				4BCA567A27B2B645005EF24E /* AppDelegate.swift in Sources */,
 				4BCA567C27B2B645005EF24E /* SceneDelegate.swift in Sources */,
+				4BCA568E27B2B6B3005EF24E /* CategoriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
